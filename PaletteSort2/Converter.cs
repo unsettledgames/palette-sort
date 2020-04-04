@@ -75,15 +75,15 @@ namespace PaletteSort2
             {
                 if ((cMax > r - 0.01) && (cMax < r + 0.01))
                 {
-                    h = 60 * (((g - b) / delta) % 6);
+                    h = 60 * ((Math.Abs(g - b) / delta) % 6);
                 }
                 else if ((cMax > g - 0.01) && (cMax < g + 0.01))
                 {
-                    h = 60 * (((b - r) / delta) + 2);
+                    h = 60 * ((Math.Abs(b - r) / delta) + 2);
                 }
                 else
                 {
-                    h = 60 * (((r - g) / delta) + 4);
+                    h = 60 * ((Math.Abs(r - g) / delta) + 4);
                 }
             }
 
