@@ -10,11 +10,19 @@ namespace PaletteSort2
     {
         private float m_minHue;
         private float m_maxHue;
+        private List<PaletteColor> m_colors;
         
         public Ramp(float minHue, float maxHue)
         {
             m_minHue = minHue;
             m_maxHue = maxHue;
+
+            m_colors = new List<PaletteColor>();
+        }
+
+        public List<PaletteColor> colors
+        {
+            get { return m_colors; }
         }
 
         public float minHue
@@ -31,7 +39,15 @@ namespace PaletteSort2
 
         public void AddColors(List<PaletteColor> colors)
         {
+            for (int i=0; i<colors.Count; i++)
+            {
+                HSVColor hsvColor = Converter.RGBToHSV(colors[i].hexColor);
 
+                if (hsvColor.H <= maxHue && hsvColor.H >= minHue)
+                {
+                    this.colors.Add(colors[i]);
+                }
+            }
         }
     }
 }

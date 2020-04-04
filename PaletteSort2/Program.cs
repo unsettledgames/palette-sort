@@ -20,6 +20,9 @@ namespace PaletteSort2
                 toAdd.AddColors(colors);
 
                 ret.Add(toAdd);
+
+                currentMinHue += divisions;
+                currentMaxHue += divisions;
             }
 
             return ret;
@@ -28,13 +31,20 @@ namespace PaletteSort2
         static void Main(string[] args)
         {
             int nRamps = 6;
+            Program p = new Program();
 
-
-
-            FileManagement fm = new FileManagement("Palettes/edg32.png");
+            FileManagement fm = new FileManagement("Palettes/vinik.png");
             List<PaletteColor> colors = fm.GetColorList();
 
-            fm.ExportPalette("sorted.bmp", colors);
+            List<Ramp> ramps = p.BuildRamps(nRamps, colors);
+            List<PaletteColor> sortedList = new List<PaletteColor>();
+        
+            for (int i=0; i<ramps.Count; i++)
+            {
+                sortedList.AddRange(ramps[i].colors);
+            }
+
+            fm.ExportPalette("sorted.bmp", sortedList);
         }
     }
 }

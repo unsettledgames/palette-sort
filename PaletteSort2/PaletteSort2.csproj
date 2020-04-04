@@ -45,6 +45,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Consts.cs" />
+    <Compile Include="Converter.cs" />
     <Compile Include="FileManagement.cs" />
     <Compile Include="PaletteColor.cs" />
     <Compile Include="Program.cs" />
