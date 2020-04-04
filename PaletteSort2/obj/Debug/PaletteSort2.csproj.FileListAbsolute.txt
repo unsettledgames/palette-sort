@@ -1,0 +1,7 @@
+C:\Users\nicol\OneDrive\Desktop\Git projects\palette-sort\PaletteSort2\bin\Debug\PaletteSort2.exe.config
+C:\Users\nicol\OneDrive\Desktop\Git projects\palette-sort\PaletteSort2\bin\Debug\PaletteSort2.exe
+C:\Users\nicol\OneDrive\Desktop\Git projects\palette-sort\PaletteSort2\bin\Debug\PaletteSort2.pdb
+C:\Users\nicol\OneDrive\Desktop\Git projects\palette-sort\PaletteSort2\obj\Debug\PaletteSort2.csprojAssemblyReference.cache
+C:\Users\nicol\OneDrive\Desktop\Git projects\palette-sort\PaletteSort2\obj\Debug\PaletteSort2.csproj.CoreCompileInputs.cache
+C:\Users\nicol\OneDrive\Desktop\Git projects\palette-sort\PaletteSort2\obj\Debug\PaletteSort2.exe
+C:\Users\nicol\OneDrive\Desktop\Git projects\palette-sort\PaletteSort2\obj\Debug\PaletteSort2.pdb

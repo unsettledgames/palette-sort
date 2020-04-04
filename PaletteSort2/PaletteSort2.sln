@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29306.81
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaletteSort2", "PaletteSort2.csproj", "{66F85724-1DE5-4266-9E99-07F0D8E56CA0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{66F85724-1DE5-4266-9E99-07F0D8E56CA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66F85724-1DE5-4266-9E99-07F0D8E56CA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66F85724-1DE5-4266-9E99-07F0D8E56CA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66F85724-1DE5-4266-9E99-07F0D8E56CA0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {70EAE4EF-BE4B-47A1-B18E-9AFB2C06BB32}
+	EndGlobalSection
+EndGlobal
