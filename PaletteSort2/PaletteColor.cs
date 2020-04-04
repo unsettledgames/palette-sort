@@ -1,7 +1,7 @@
 ﻿using System.Drawing;
 using Color = System.Drawing.Color;
 
-namespace PaletteSort
+namespace PaletteSort2
 {
     class PaletteColor
     {

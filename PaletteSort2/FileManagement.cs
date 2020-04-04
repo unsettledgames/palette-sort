@@ -3,7 +3,7 @@ using System.Drawing;
 using System.Collections;
 using System.Collections.Generic;
 
-namespace PaletteSort
+namespace PaletteSort2
 {
     class FileManagement
     {
