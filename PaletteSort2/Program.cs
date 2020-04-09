@@ -33,7 +33,7 @@ namespace PaletteSort2
             int nRamps = 6;
             Program p = new Program();
 
-            FileManagement fm = new FileManagement("Palettes/vinik.png");
+            FileManagement fm = new FileManagement("Palettes/edg32.png");
             List<PaletteColor> colors = fm.GetColorList();
 
             List<Ramp> ramps = p.BuildRamps(nRamps, colors);
